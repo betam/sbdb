@@ -385,7 +385,7 @@ class Sbdb
 
     private function logger(int $level, string $message, array $data = []): void
     {
-        if ($this->logLevel < $level) {
+        if ($this->logLevel > $level) {
             return;
         }
 
