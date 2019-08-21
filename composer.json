@@ -1,0 +1,12 @@
+{
+  "name": "betam/sbdb",
+  "description": "This is a simple pdo-based db tool.",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {"Betam\\": "src/"}
+  },
+  "require": {
+    "ext-pdo": "*",
+    "ext-json": "*"
+  }
+}

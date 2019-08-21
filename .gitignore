@@ -1,0 +1,12 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+_config.php
+yachtbookerAftereffects.sublime-workspace
+dbagregator.sublime-workspace
+dbagregator.sublime-project
+runner.sh
+locks/regionscombine.php.lock
+locks/betam_make_offers_calculated.php.lock
+.idea/*
+/tests/logfile.log
+/.htaccess
+/sbdbs.sublime-project
